@@ -1,4 +1,5 @@
 import 'package:firstproject/Setting_Page.dart';
+import 'package:firstproject/flex_fage.dart';
 import 'package:firstproject/popup_page.dart';
 import 'package:flutter/material.dart';
 
@@ -24,7 +25,8 @@ class MyApp extends StatelessWidget {
       routes: {
         "/": (context) => const MyHomePage(),
         "/setting": (context) => const SettingPage(),
-        "/popup": (context) => const PopupPage()
+        "/popup": (context) => const PopupPage(),
+        "/flex": (context) => const FlexPage()
       },
     );
   }
