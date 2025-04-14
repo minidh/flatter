@@ -1,4 +1,5 @@
 import 'package:firstproject/Setting_Page.dart';
+import 'package:firstproject/ToDoPage.dart';
 import 'package:firstproject/button_page.dart';
 import 'package:firstproject/flex_page.dart';
 import 'package:firstproject/input_page.dart';
@@ -35,7 +36,8 @@ class MyApp extends StatelessWidget {
         "/image": (context) => const imagePage(),
         "/button": (context) => const ButtonPage(),
         "/input": (context) => const InputPage(),
-        "/List": (context) => const ListPage()
+        "/List": (context) => const ListPage(),
+        "/todo": (context) => const TodoPage(),
       },
     );
   }
